@@ -142,15 +142,15 @@ real-time-communication-with-socket-io-Ganga-J/  - Basic project structure
 
 │   ├── models/## Resources
 
-│   │   ├── doctors.js             # Doctor model (optional)
+│   │   ├── users.js               # User model for friends
 
-│   │   └── patients.js            # Patient model (optional)- [Socket.io Documentation](https://socket.io/docs/v4/)
+│   │   └── profiles.js            # User profile model- [Socket.io Documentation](https://socket.io/docs/v4/)
 
 │   ├── routes/- [React Documentation](https://react.dev/)
 
-│   │   ├── doctorsRoutes.jsx      # Doctor routes (optional)- [Express.js Documentation](https://expressjs.com/)
+│   │   ├── usersRoutes.jsx        # User routes- [Express.js Documentation](https://expressjs.com/)
 
-│   │   └── patientRoutes.jsx      # Patient routes (optional)- [Building a Chat Application with Socket.io](https://socket.io/get-started/chat) 
+│   │   └── profilesRoutes.jsx     # User profile routes- [Building a Chat Application with Socket.io](https://socket.io/get-started/chat) 
 │   ├── .env                       # Environment variables
 │   ├── package.json
 │   └── server.js                  # Main server file
