@@ -1,0 +1,32 @@
+{
+  "name": "socket-io-chat-app",
+  "version": "1.0.0",
+  "description": "Real-time chat application for friends using Socket.io",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "real-time",
+    "react",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC"
+}
