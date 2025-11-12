@@ -35,7 +35,7 @@ Your Socket.io Chat App is 100% ready for Vercel deployment!
 ═══════════════════════════════════════════════════════════════════════════════
 
 Command 1:  npm install -g vercel
-Command 2:  vercel login
+Command 2:    vercel login
 Command 3:  vercel --prod
 
 TOTAL TIME: 3-4 minutes ⏱️
